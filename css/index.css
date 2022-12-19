@@ -10,6 +10,7 @@ header{
     background-size: cover;
 }
 body{
-    margin:none;
-    width: 100%;
+    margin: 0px;
+    width: 120%;
+    padding:0px;
 }
