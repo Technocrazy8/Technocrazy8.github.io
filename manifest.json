@@ -1,8 +1,9 @@
 {
     "short_name": "EvanR",
     "name": "Evans Resume",
-    "start_url": ".",
+    "start_url": "https://technocrazy8.github.io/index.html",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"
+    
   }
