@@ -9,3 +9,6 @@ header{
     width: 100%;
     background-size: cover;
 }
+body{
+    margin:none;
+}
