@@ -3,14 +3,14 @@
     background-color: black;
     text-decoration-color: white;
     color: white;
-    width: 120%;
+    width: 100%;
 }
 header{
-    width: 120%;
+    width: 100%;
     background-size: cover;
+    padding: 0px;
+    margin: 0px;
 }
 body{
-    margin: 0px;
-    width: 120%;
-    padding:0px;
+    
 }
