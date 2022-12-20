@@ -1,42 +1,34 @@
 *{
     box-sizing: border-box;
 }
-header{
+#navbar {
+    overflow: hidden;
     background-color: rgb(57, 57, 57);
-    position: fixed;
-    width: 100%;
-    top:0;
-    padding: 0px;
-    z-index: 1;
+    padding-top: 0px; 
+    list-style-type: none;
     display: inline-block;
-}
-header h1{
+    width: 100%;
+    position: fixed;
+  }
+#navbar h1{
     padding: 1em;
     color: goldenrod;
     display: inline-block;
 }
-nav{
-    padding: 1em;
+  
+  /* Navbar links */
+#navbar a {
     float: right;
-    margin-top: 1em;
-}
-nav ul{
     display: inline-block;
-    list-style-type: none;
-}
-nav li{
-    display: inline-block;
-    padding: .5em;
-}
-nav a{
+    color: goldenrod;
     text-decoration: none;
-    color:goldenrod;
+    text-align: center; 
+    padding: 60px;
     text-transform: uppercase;
-    letter-spacing: .1em;
-}
+  }
 .banner{
     max-width: 100%;
-    height: 50vh;
+    height: 500vh;
     /* margin-bottom: 3em; */
     /* object-fit: contain; */
 }
@@ -51,9 +43,11 @@ nav a{
     font-weight: 600;
 }
 hr{
-    margin:0px;
+    margin-bottom:0px;
     color: goldenrod;
     border: solid;
+    width:100%;
+    padding: 0px;
 }
 body{   
     margin: 0px;
