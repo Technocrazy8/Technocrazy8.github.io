@@ -1,7 +1,13 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); */
+@font-face {
+    font-family: "main";
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+}
 *{
     box-sizing: border-box;
     padding:0;
     margin:0;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     position: fixed;
@@ -26,7 +32,6 @@ header{
 #navbar h1{
     float:left;
 }
-  
   /* Navbar links */
 #navbar a {
     float: right;
@@ -44,21 +49,49 @@ hr{
     width:100%;
     padding: 0px;
     margin-top:45px;
-    
 }
 main{
-
+    --font-family: 'Montserrat', sans-serif;
     margin-top: 100px;
     margin-left: 25px;
     margin-right: 25px;
+    box-shadow: 0px 0px 10px 10px #8d9bdf7d;   
+}
+.container{
+    display: grid;
+}
+.card-left{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 #name{
     color: darkblue;
-    
+    --text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color:black;
+    margin-bottom: 50px;
+    /* margin-top: 150px; */
 }
 #content{
     margin-top:120px;
-    box-shadow: 0px 0px 10px 10px #8d9bdf7d;
+    --box-shadow: 0px 0px 10px 10px #8d9bdf7d;
+    --text-indent: 5%;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+}
+#projects h3{
+    padding:5px;
+    margin-left:5px;
+}
+#projects p{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+#skills ul{
+    margin-left: 40px;
 }
 .clearfix{
     clear:both;
