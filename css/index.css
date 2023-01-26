@@ -53,18 +53,20 @@ hr{
 main{
     --font-family: 'Montserrat', sans-serif;
     margin-top: 100px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
     box-shadow: 0px 0px 10px 10px #8d9bdf7d;   
 }
 .container{
-    display: grid;
+    display: flex;
 }
-.card-left{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+.card{
+    flex: 50%;
+}
+.card2{
+    flex:50%;
+    padding-left: 20%;
+    padding-top:7em;
 }
 #name{
     color: darkblue;
@@ -82,16 +84,30 @@ main{
     margin-right: 50px;
     padding: 30px;
 }
-#projects h3{
+h3{
     padding:5px;
-    margin-left:5px;
+    margin-left:10px;
 }
 #projects p{
     margin-left: 25px;
     margin-bottom: 5px;
 }
+#skills{
+    padding-top: 15px;
+}
 #skills ul{
     margin-left: 40px;
+}
+#education h2{
+    padding-top:15px;
+}
+#education h4{
+    margin-left:25px;
+    padding-bottom: 5px;
+}
+#education p{
+    margin-left: 30px;
+    margin-bottom: 5px;
 }
 .clearfix{
     clear:both;
