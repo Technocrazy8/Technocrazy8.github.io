@@ -98,6 +98,10 @@ p{
 .card h2{
     padding-top:15px;
 }
+.card2 p{
+    padding-top:5px;
+    margin-left:30px;
+}
 #projects p{
     margin-left: 25px;
 }
@@ -116,13 +120,6 @@ p{
 }
 #exp h5{
     margin-left: 30px;
-}
-#exp p{
-    margin-left:30px;
-}
-#vol p{
-    padding-top:5px;
-    margin-left:30px;
 }
 .clearfix{
     clear:both;
