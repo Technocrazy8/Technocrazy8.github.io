@@ -54,7 +54,7 @@ main{
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom:50px;
-    box-shadow: 0px 0px 10px 10px #8d9bdf7d;   
+    box-shadow: 0px 0px 30px 20px #8d9bdf7d;   
 }
 .container{
     display: flex;
