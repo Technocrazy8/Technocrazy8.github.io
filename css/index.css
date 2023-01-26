@@ -66,7 +66,7 @@ main{
 .card2{
     flex:50%;
     padding-left: 20%;
-    padding-top:7em;
+    padding-top:1em;
 }
 #name{
     color: darkblue;
@@ -96,6 +96,7 @@ h3{
     padding-top: 15px;
 }
 #skills ul{
+    padding-top:5px;
     margin-left: 40px;
 }
 #education h2{
@@ -108,6 +109,12 @@ h3{
 #education p{
     margin-left: 30px;
     margin-bottom: 5px;
+}
+#classes h2{
+    padding-top:15px;
+}
+#exp{
+    padding-top:3.75em;
 }
 .clearfix{
     clear:both;
