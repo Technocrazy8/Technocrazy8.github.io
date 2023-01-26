@@ -55,6 +55,7 @@ main{
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom:50px;
     box-shadow: 0px 0px 10px 10px #8d9bdf7d;   
 }
 .container{
@@ -88,33 +89,36 @@ h3{
     padding:5px;
     margin-left:10px;
 }
+h4{
+    margin-left:25px;
+}
+p{
+    margin-bottom:5px;
+}
+.card h2{
+    padding-top:15px;
+}
 #projects p{
     margin-left: 25px;
-    margin-bottom: 5px;
-}
-#skills{
-    padding-top: 15px;
 }
 #skills ul{
     padding-top:5px;
     margin-left: 40px;
 }
-#education h2{
-    padding-top:15px;
-}
 #education h4{
-    margin-left:25px;
     padding-bottom: 5px;
 }
 #education p{
     margin-left: 30px;
-    margin-bottom: 5px;
-}
-#classes h2{
-    padding-top:15px;
 }
 #exp{
     padding-top:3.75em;
+}
+#exp h5{
+    margin-left: 30px;
+}
+#exp p{
+    margin-left:30px;
 }
 .clearfix{
     clear:both;
