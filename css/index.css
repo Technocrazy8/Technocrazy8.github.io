@@ -121,6 +121,13 @@ p{
 #vol h2{
     margin-top: 15px;
 }
+/* center the content */
+#content { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .clearfix{
     clear:both;
 }
