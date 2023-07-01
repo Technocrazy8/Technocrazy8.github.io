@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); */
+@font-face {
+  font-family: "main";
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navbar {
+  overflow: hidden;
+  background-color: rgb(57, 57, 57);
+  width: 100%;
+  position: fixed;
+  height:100px;
+}
+#navbar-content{
+  color: goldenrod;
+  padding:25px;
+}
+#navbar h1{
+  float:left;
+}
+/* Navbar links */
+#navbar a {
+  float: right;
+  display: inline-block;
+  color: goldenrod;
+  text-decoration: none;
+  text-align: center; 
+  padding: 10px;
+  text-transform: uppercase;
+}
+hr{
+  margin-bottom:0px;
+  color: goldenrod;
+  border: solid;
+  width:100%;
+  padding: 0px;
+  margin-top:45px;
+}
+main{
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom:50px;
+  box-shadow: 0px 0px 30px 20px #8d9bdf7d;   
+}
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.card{
+  flex: 50%;
+}
+.card2{
+  flex:50%;
+  padding-left: 20%;
+  padding-top:1em;
+}
+#name{
+  color: rgb(0, 0, 113);
+  text-decoration-thickness: 4px;
+  text-decoration-color:black;
+  margin-bottom: 50px;
+}
+#content{
+  margin-top:120px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px;
+}
+h3{
+  padding:5px;
+  margin-left:10px;
+}
+h4{
+  margin-left:25px;
+}
+p{
+  margin-bottom:5px;
+}
+.card h2{
+  padding-top:15px;
+}
+.card2 p{
+  padding-top:5px;
+  margin-left:30px;
+}
+#projects p{
+  margin-left: 25px;
+}
+#skills ul{
+  padding-top:5px;
+  margin-left: 40px;
+}
+#education h4{
+  padding-bottom: 5px;
+}
+#education h3{
+  margin-right: -120px;
+}
+#education p{
+  margin-left: 30px;
+}
+#exp{
+  padding-top:5em;
+}
+#exp h5{
+  margin-left: 30px;
+}
+#vol h2{
+  margin-top: 15px;
+}
+/* center the content */
+#content { 
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clearfix{
+  clear:both;
 }
