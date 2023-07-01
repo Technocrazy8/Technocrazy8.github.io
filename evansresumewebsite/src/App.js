@@ -49,7 +49,6 @@ function App() {
                 <li>HTML/CSS</li>
                 <li>Minor Soldering</li>
                 <li>Network Cabling</li>
-
               </ul>
             </div>
             <div id="education">
