@@ -82,7 +82,7 @@ function App() {
           <div class="clearfix"></div>
           <div class="card2">
             <div class="contact-info">
-              <h4 style="margin-left:0px">Contact Information</h4>
+              <h4 style={{marginLeft:0}}>Contact Information</h4>
               <h5>20 Jones rd
                 Kelso, WA 98626
                 (503) 539-4324
@@ -94,7 +94,7 @@ function App() {
               <h3>Seaquest Designs, LLC,</h3>
               <h4>Ocean Shores — Assistant Contractor</h4>
               <h5>June 2015 - PRESENT (During Summers)</h5>
-              <p style="padding-bottom:5px">I have completed various tasks such as painting, siding, 
+              <p style={{paddingBottom:5}}>I have completed various tasks such as painting, siding, 
                 demolition, minor electrical and plumbing, and dry rot repair.</p>
               <h3>Western Washington University,</h3>
               <h4>Bellingham — Resident Advisor</h4>
