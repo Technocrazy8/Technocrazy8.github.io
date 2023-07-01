@@ -21,7 +21,7 @@ function App() {
           <div class="card">
             <div id="name">
               <h1 style={{fontSize:50}}>Evan Johnson</h1>
-              <hr style={{color:black, marginTop: 0, marginBottom:100}}/>
+              <hr style={{color:"black", marginTop: 0, marginBottom:100}}/>
             </div>
             <div id="projects">
               <h2>Projects</h2>
