@@ -32,7 +32,7 @@ function App() {
               <h3>This Website</h3>
               <p>I built this website from scratch using HTML, CSS styling and GitHubs web hosting services.</p>
               <h3>Work Order System</h3>
-              <P>Used Knex, Node.js, PostgreSQL and JavaScript to build onto an existing system for a contracting company. Conducted weekly stand-ups with a team of 3.</P>
+              <p>Used Knex, Node.js, PostgreSQL and JavaScript to build onto an existing system for a contracting company. Conducted weekly stand-ups with a team of 3.</p>
             </div>
             <div id="skills">
               <h2>Skills</h2>
